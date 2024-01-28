@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<h1>Kitoblar bolimi</h1>
+{% for book in object_list %}
+<ul>
+    <li>Kitob nomi: {{book.nomi}}</li>
+    <li>Kitob haqida: {{book.kitob_haqida}}</li>
+    <li>Kitob muallifi: {{book.muallif}}</li>
+    <li>Kitob janri: {{book.janr}}</li>
+    <li>Kitob id raqami: {{book.isbn}}</li>
+    <li>Kitob narxi: {{book.narxi}}</li>
+</ul>
+{% endfor%}
+</body>
+</html>
