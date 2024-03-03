@@ -1,9 +1,9 @@
 ---
 ## Git clone project<br>
 
-    git clone https://github.com/temirovuz/FastAPI_Student.git
+    git clone https://github.com/temirovuz/kutubxona_rest_simple.git
 ## We can enter the cloned project
-        cd FastAPI_Student
+        cd kutubxona_rest_simple
 ## Creating the Virtual Environment
         python -m venv venv
 ## Activating the Virtual Environment
